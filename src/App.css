@@ -1,0 +1,35 @@
+/* App.css */
+.app {
+    display: flex; /* Use flexbox */
+    height: 100vh; /* Make the layout cover the entire viewport height */
+  }
+  
+ 
+.sidebar {
+    height: 100vh;
+    width: 33vw; /* Take 30% of the available space */
+    background-color: #553d89;
+  
+  }
+
+  .fixedTopLeft {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .custom-directions-container {
+    position: absolute;
+    right: 50px; /* Adjust the value as needed */
+    top: 10px; /* Adjust the value as needed */
+  }
+  
+
+  .mapboxgl-ctrl-top-right {
+    position:fixed;
+    top:90px;
+  }
+  
+
+  
+
